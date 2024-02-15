@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Section</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <section class="w-3/4 h-screen m-auto bg-white p-5 items-center flex">
+        <div class="bg-purple-400 p-5 w-1/2 m-auto rounded-lg shadow-2xl">
+            <div class="flex justify-between pb-5 flex-wrap">
+                <a href=""><div class="bg-gray-100 w-40 m-3 px-3 h-20 rounded flex items-center hover:scale-105 transition ease-in-out">
+                    <img src="./Logos/PayPal Logo.png" alt="">
+                </div></a>
+                <a href=""><div class="bg-gray-100 w-40 m-3 px-3 h-20 rounded flex items-center hover:scale-105 transition ease-in-out">
+                    <img src="./Logos/Payoneer Logo.png" alt="">
+                </div></a>
+                <a href=""><div class="bg-gray-100 w-40 m-3 h-20 rounded flex items-center hover:scale-105 transition ease-in-out">
+                    <img src="./Logos/Stripe Logo.png" alt="">
+                </div></a>
+            </div>
+            <p class="text-xl text-center text-gray-600 pb-10">or pay using creadit card</p>
+            <form action="">
+                <label for="" class="font-bold tracking-wider">Card holder full name:</label><br>
+                <input type="text" placeholder="Your Full Name" class="mb-3 px-4 py-2 border w-full rounded-lg"><br>
+                <label for="" class="font-bold tracking-wider">Card Number:</label><br>
+                <input type="number" placeholder="1234-5678-9012-3456" class="mb-3 px-4 py-2 border w-full rounded-lg"><br>
+                <label for="" class="font-bold tracking-wider">Expiry date/CVV:</label><br>
+                <input type="number" placeholder="Month/Year" class="mb-3 px-4 py-2 border w-[59%] rounded-lg">
+                <input type="number" placeholder="CVV" class="mb-3 px-4 py-2 border w-[40%] rounded-lg">
+                <button class="bg-purple-500 p-3 mt-5 w-full rounded-lg font-semibold text-white hover:scale-105 transition ease-in-out">Checkout</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
